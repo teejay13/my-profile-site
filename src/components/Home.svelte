@@ -77,5 +77,37 @@
         </div>
     </div>
 
+    <div class="flex flex-col gap-6 mt-10">
+        <h1 class="text-2xl font-bold text-gray-900">Featured Publications</h1>
+        
+        <div class="flex flex-col gap-6">
+            <!-- Publication item -->
+            <div class="flex flex-col sm:flex-row gap-4 bg-white rounded-xl p-4 shadow-sm">
+            <!-- Image (optional, hide on small screens if you wish) -->
+            <img src={ProfilePic} alt="Teejay Salako" class="w-42 h-40 object-cover rounded-lg flex-shrink-0 mb-2 sm:mb-0" />
+            
+            <!-- Publication details -->
+            <div class="flex-1 flex flex-col gap-2">
+                <div class="text-lg font-semibold text-gray-800">
+                Abstraction Alignment: Comparing Model-Learned and Human-Encoded Conceptual Relationships
+                </div>
+                <div class="text-sm text-gray-600">
+                Angie Boggust • Hyemin Bang • Hendrik Strobelt • Arvind Satyanarayan
+                </div>
+                <div class="text-sm text-blue-700 font-medium">CHI 2025</div>
+                <div class="flex flex-wrap gap-3 mt-2">
+                <a href="#" class="text-blue-600 bg-blue-50 px-2 py-1 rounded-lg text-xs font-medium hover:underline">Project</a>
+                <a href="#" class="text-blue-600 bg-blue-50 px-2 py-1 rounded-lg text-xs font-medium hover:underline">Paper</a>
+                <a href="#" class="text-blue-600 bg-blue-50 px-2 py-1 rounded-lg text-xs font-medium hover:underline">Demo</a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Add more publication items below in the same pattern -->
+
+        </div>
+    </div>
+
+
 </SectionWrapper>
 
